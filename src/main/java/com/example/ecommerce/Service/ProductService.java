@@ -180,7 +180,7 @@ public class ProductService {
     //notification in Email
     public void sendEmailNotification(Product product) {
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setTo("vidhi776776@gmail.com"); // Set to a real recipient email
+        message.setTo("vidhi@gmail.com"); // Set to a real recipient email
         message.setSubject("Product Tracking Information");
 
         // Add product details including product type and price
